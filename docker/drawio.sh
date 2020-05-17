@@ -11,5 +11,4 @@ docker run --name=drawio \
     -p 8443:8443 \
     --detach \
     --restart=always \
-    --rm \
 fjudith/draw.io:latest

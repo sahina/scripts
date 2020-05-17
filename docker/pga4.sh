@@ -9,7 +9,6 @@ docker run --publish 5050:80 \
   --name=pgadmin4 \
   --hostname=pgadmin4 \
   --network=pgnetwork \
-  --rm \
   --detach \
   --restart=always \
 dpage/pgadmin4:latest

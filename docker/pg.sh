@@ -15,5 +15,4 @@ docker run --publish 5432:5432 \
   --network=pgnetwork \
   --restart=always \
   --detach \
-  --rm \
 postgres:12.2
