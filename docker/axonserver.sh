@@ -12,4 +12,5 @@
 #     -v axon_config:/config \
 # axoniq/axonserver
 
+# quick runs, delete event store on restarts for dev stuff
 docker run -d --name axonserver  -p 8024:8024 -p 8124:8124 axoniq/axonserver
